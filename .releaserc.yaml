@@ -1,5 +1,5 @@
 branches:
-  - releases/v+([0-9])
+  - releases/*
 plugins:
   - - "@semantic-release/commit-analyzer"
     - releaseRules:
