@@ -1,3 +1,5 @@
+extends:
+  - semantic-release-monorepo
 plugins:
   - - "@semantic-release/commit-analyzer"
     - releaseRules:
